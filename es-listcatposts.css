@@ -1,0 +1,34 @@
+
+/*  pagination  all rights for http://www.easysoftonic.com */
+
+.es_styles_pagination {
+    clear:both;
+    font-size:11px;
+    line-height:13px;
+    padding: 0px 0 35px 15px;
+    position:relative;
+}
+ 
+.es_styles_pagination span, .es_styles_pagination a {
+    background: #ebebeb;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    color:#333333;
+    display:block;
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    width:auto;
+}
+ 
+.es_styles_pagination a:hover{
+    background: #A0A0A0;
+    color:#333333;
+}
+ 
+.es_styles_pagination .current{
+    background: #FFFFFF;
+    color:#333333;
+    padding:6px 9px 5px 9px;
+}
